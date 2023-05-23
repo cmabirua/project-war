@@ -1,5 +1,16 @@
+"""
+    if you make any changes or add file in this folder and want to upload this on github
+    step 1 - git add .
+    it will add all the files you changed or added
+    step 2 - git commit -m "write the message"
+    like  - git commit -m "tic toe project start" 
+    step 3 - git push
+
+"""
+# start hands on
 #  game board
 def display_board(board):
+    print("hello")
     print(board[7] + '|' + board[8] + '|' + board[9])
     print(board[4] + '|' + board[5] + '|' + board[6])
     print(board[1] + '|' + board[2] + '|' + board[3])
