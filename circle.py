@@ -1,0 +1,13 @@
+class Circle():# class define with camel caseing
+    #clas object attribute
+    pi=3.14
+    def __init__(self,radius=1):
+       self.radius =radius
+       self.area=radius*radius*self.pi
+    #method inside the fuction for some operation or action for the class
+    def get_circumference(self):
+        return self.radius *self.pi*2
+my_circle = Circle(30)
+print(my_circle.get_circumference())
+print(my_circle.area)
+        
